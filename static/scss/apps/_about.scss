@@ -1,0 +1,16 @@
+#about {
+	padding: 20px;
+	color: $white;
+
+	h1 {
+		padding: 0px;
+
+		@include width-over(1024px) {
+				font-size: 70px;
+			}
+	}
+	p {
+	 padding-bottom: 15px;
+	}
+}
+
